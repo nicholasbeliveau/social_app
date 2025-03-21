@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import ModeToggle from "@/components/ui/ModeToggle";
+import ModeToggle from "@/components/ModeToggle";
 import { SignedIn, SignedOut, SignIn, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
