@@ -28,9 +28,12 @@ function CreatePost() {
         setContent("");
         setImageUrl("");
         setShowImageUpload(false);
+
+        // TODO: This is where we would put a toast message of success
       }
     } catch ( error ) {
-
+      // TODO: Add toast about failure.
+      console.log( "Failed to create post" );
     } finally{
       setIsPosting( false );
     }
