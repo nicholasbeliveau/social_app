@@ -1,23 +1,23 @@
 import { Button } from "@/components/ui/button";
 import ModeToggle from "@/components/ModeToggle";
 import { SignedIn, SignedOut, SignIn, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs/server";
+import CreatePost from "@/components/CreatePost";
 
-export default function Home() {
+export default async function Home() {
+
+  const user = await currentUser();
+
   return (
-    <div className="m-4">
-      <SignedOut>
-        <SignInButton mode="modal">
-          <Button>Sign In</Button>
-        </SignInButton>
-      </SignedOut>
+    <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
 
-      <SignedIn>
-        <UserButton/>
-      </SignedIn>
+      <div className="lg:col-span-6">
+        {user ? <CreatePost /> : null}
+      </div>
 
-      <ModeToggle/>
-
-      <Button variant={"secondary"}>Click Me</Button>
+      <div className="hidden lg:block lg:col-span-4 sticky top-20">
+        Who to follow
+      </div>
     </div>
   );
 }
