@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Loader2Icon } from "lucide-react";
-import toast from "react-hot-toast";
 import { toggleFollow } from "@/actions/user.action";
 
 function FollowButton({ userId }: { userId: string }) {
@@ -13,10 +12,11 @@ function FollowButton({ userId }: { userId: string }) {
     setIsLoading(true);
 
     try {
+      // TODO: Add toast here
       await toggleFollow(userId);
-      toast.success("User followed successfully");
     } catch (error) {
-      toast.error("Error following user");
+      // TODO: Add toast here
+      console.log("Error following user");
     } finally {
       setIsLoading(false);
     }
