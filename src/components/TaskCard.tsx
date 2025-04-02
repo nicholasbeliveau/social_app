@@ -16,7 +16,7 @@ function TaskCard( { task }: { task: Task }) {
     try {
       setIsCompleteing( true );
       setIsCompleted((prev) => !prev );
-      toggleComplete( task.id );
+      await toggleComplete( task.id );
 
     } catch (error) {
 

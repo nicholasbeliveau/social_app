@@ -54,7 +54,16 @@ export async function toggleComplete( taskId: string ) {
 
     if (!task) throw new Error( "Task not found" );
 
-    console.log( task.completed );
+    const updateTask = await prisma.task.update({
+      where: {
+        id: task.id,
+      },
+      data: {
+        completed: !task.completed
+      }
+    }) 
+
+    if (!updateTask) throw new Error( "Erorr completing task" );
 
     revalidatePath("/tasks");
     return { success: true };
