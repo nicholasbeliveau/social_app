@@ -40,7 +40,9 @@ function TasksPage() {
         <div className="space-y-6">
           <CreateTask />
 
-
+          {tasks.map((task) => (
+            <TaskCard key={task.id} task={task}/>
+          ))}
         </div>
       </div>
 
