@@ -1,6 +1,6 @@
 import { getUserTasks } from "@/actions/tasks.action";
 import { getDbUserId } from "@/actions/user.action";
-import WhoToFollow from "@/components/WhoToFollow";
+import Calendar from "@/components/Calendar";
 import { currentUser } from "@clerk/nextjs/server";
 import TaskCard from "@/components/TaskCard";
 import CreateTask from "@/components/CreateTask";
@@ -23,7 +23,7 @@ export default async function TasksPage() {
       </div>
 
       <div className="hidden lg:block lg:col-span-4 sticky top-20">
-        <WhoToFollow />
+        <Calendar/>
       </div>
     </div>
   );
