@@ -30,6 +30,7 @@ model User {
   posts Post[] // One-to-many
   comments Comment[] // One-to-many
   likes Like[] // One-to-many
+  tasks Task[]
 
   followers Follows[] @relation("following") // users who follow this user
   following Follows[] @relation("follower") // users this user follows
@@ -54,6 +55,17 @@ model Post{
   notifications Notification[]
 }
 
+model Task{
+  id        String    @id @default(cuid())
+  authorId  String
+  content   String?
+  completed Boolean   @default(false)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  // Relations
+  author User @relation(fields: [authorId],references: [id], onDelete: Cascade)
+}
 
 model Comment{
   id String @id @default(cuid())

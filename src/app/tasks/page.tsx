@@ -1,14 +1,30 @@
-// This is completely separate from the social media app.
-// This is only here as an example of route handler
+import { getUserTasks } from "@/actions/tasks.action";
+import { getDbUserId } from "@/actions/user.action";
+import WhoToFollow from "@/components/WhoToFollow";
+import { currentUser } from "@clerk/nextjs/server";
+import TaskCard from "@/components/TaskCard";
+import CreateTask from "@/components/CreateTask";
 
-async function TasksPage() {
-  const response = await fetch("http://localhost:3000/api/tasks", {
-    cache: "no-store",
-  });
-  const tasks = await response.json();
+export default async function TasksPage() {
+  const user = await currentUser();
+  const dbUserId = await getDbUserId();
+  const tasks = await getUserTasks();
 
-  console.log("tasks:", tasks);
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
+      <div className="lg:col-span-6">
+        <div className="space-y-6">
+          {user ? <CreateTask /> : null}
 
-  return <div>TasksPage</div>;
+          {tasks.map((task) => (
+            <TaskCard key={task.id} task={task}/>
+          ))}
+        </div>
+      </div>
+
+      <div className="hidden lg:block lg:col-span-4 sticky top-20">
+        <WhoToFollow />
+      </div>
+    </div>
+  );
 }
-export default TasksPage;
