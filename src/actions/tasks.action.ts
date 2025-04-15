@@ -3,6 +3,7 @@
 import prisma from "@/lib/prisma";
 import { getDbUserId } from "./user.action";
 import { revalidatePath } from "next/cache";
+import TasksPage from "@/app/tasks/page";
 
 export async function getUserTasks() {
   try {

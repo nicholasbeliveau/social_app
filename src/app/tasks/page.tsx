@@ -9,10 +9,13 @@ import CreateTask from "@/components/CreateTask";
 import { useEffect, useState } from "react";
 import { TaskSkeleton } from "@/components/TaskSkeleton";
 
-type Tasks = Awaited<ReturnType<typeof getUserTasks>>;
-type Task = Tasks[number];
+
 
 function TasksPage() {
+
+  type Tasks = Awaited<ReturnType<typeof getUserTasks>>;
+  type Task = Tasks[number];
+
   const [tasks, setTasks] = useState<Tasks>([]);
   const [isLoading, setIsLoading] = useState(true);
 
