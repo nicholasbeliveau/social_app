@@ -1,0 +1,260 @@
+{
+  "get": "games",
+  "parameters": {
+      "league": "57",
+      "season": "2023"
+  },
+  "errors": [],
+  "results": 1514,
+  "response": [
+    {
+      "id": 351090,
+      "date": "2023-10-11T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1696982400,
+      "timezone": "UTC",
+      "week": null,
+      "timer": null,
+      "status": {
+          "long": "Finished",
+          "short": "FT"
+      },
+      "country": {
+          "id": 31,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+          "id": 57,
+          "name": "NHL",
+          "type": "League",
+          "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+          "season": 2023
+      },
+      "teams": {
+          "home": {
+              "id": 696,
+              "name": "Pittsburgh Penguins",
+              "logo": "https://media.api-sports.io/hockey/teams/696.png"
+          },
+          "away": {
+              "id": 678,
+              "name": "Chicago Blackhawks",
+              "logo": "https://media.api-sports.io/hockey/teams/678.png"
+          }
+      },
+      "scores": {
+          "home": 2,
+          "away": 4
+      },
+      "periods": {
+          "first": "1-0",
+          "second": "1-1",
+          "third": "0-3",
+          "overtime": null,
+          "penalties": null
+      },
+      "events": true
+  },
+  {
+      "id": 351091,
+      "date": "2023-10-11T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1696991400,
+      "timezone": "UTC",
+      "week": null,
+      "timer": null,
+      "status": {
+          "long": "Finished",
+          "short": "FT"
+      },
+      "country": {
+          "id": 31,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+          "id": 57,
+          "name": "NHL",
+          "type": "League",
+          "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+          "season": 2023
+      },
+      "teams": {
+          "home": {
+              "id": 702,
+              "name": "Vegas Golden Knights",
+              "logo": "https://media.api-sports.io/hockey/teams/702.png"
+          },
+          "away": {
+              "id": 1436,
+              "name": "Seattle Kraken",
+              "logo": "https://media.api-sports.io/hockey/teams/1436.png"
+          }
+      },
+      "scores": {
+          "home": 4,
+          "away": 1
+      },
+      "periods": {
+          "first": "2-0",
+          "second": "1-1",
+          "third": "1-0",
+          "overtime": null,
+          "penalties": null
+      },
+      "events": true
+  },
+  {
+      "id": 351092,
+      "date": "2023-10-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1697065200,
+      "timezone": "UTC",
+      "week": null,
+      "timer": null,
+      "status": {
+          "long": "Finished",
+          "short": "FT"
+      },
+      "country": {
+          "id": 31,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+          "id": 57,
+          "name": "NHL",
+          "type": "League",
+          "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+          "season": 2023
+      },
+      "teams": {
+          "home": {
+              "id": 676,
+              "name": "Carolina Hurricanes",
+              "logo": "https://media.api-sports.io/hockey/teams/676.png"
+          },
+          "away": {
+              "id": 693,
+              "name": "Ottawa Senators",
+              "logo": "https://media.api-sports.io/hockey/teams/693.png"
+          }
+      },
+      "scores": {
+          "home": 5,
+          "away": 3
+      },
+      "periods": {
+          "first": "0-1",
+          "second": "2-0",
+          "third": "3-2",
+          "overtime": null,
+          "penalties": null
+      },
+      "events": true
+  },
+  {
+      "id": 351093,
+      "date": "2023-10-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1697065200,
+      "timezone": "UTC",
+      "week": null,
+      "timer": null,
+      "status": {
+          "long": "After Penalties",
+          "short": "AP"
+      },
+      "country": {
+          "id": 31,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+          "id": 57,
+          "name": "NHL",
+          "type": "League",
+          "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+          "season": 2023
+      },
+      "teams": {
+          "home": {
+              "id": 700,
+              "name": "Toronto Maple Leafs",
+              "logo": "https://media.api-sports.io/hockey/teams/700.png"
+          },
+          "away": {
+              "id": 688,
+              "name": "Montreal Canadiens",
+              "logo": "https://media.api-sports.io/hockey/teams/688.png"
+          }
+      },
+      "scores": {
+          "home": 6,
+          "away": 5
+      },
+      "periods": {
+          "first": "0-1",
+          "second": "3-1",
+          "third": "2-3",
+          "overtime": "0-0",
+          "penalties": "1-0"
+      },
+      "events": true
+  },
+  {
+      "id": 351094,
+      "date": "2023-10-11T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1697067000,
+      "timezone": "UTC",
+      "week": null,
+      "timer": null,
+      "status": {
+          "long": "Finished",
+          "short": "FT"
+      },
+      "country": {
+          "id": 31,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+          "id": 57,
+          "name": "NHL",
+          "type": "League",
+          "logo": "https://media.api-sports.io/hockey/leagues/57.png",
+          "season": 2023
+      },
+      "teams": {
+          "home": {
+              "id": 673,
+              "name": "Boston Bruins",
+              "logo": "https://media.api-sports.io/hockey/teams/673.png"
+          },
+          "away": {
+              "id": 678,
+              "name": "Chicago Blackhawks",
+              "logo": "https://media.api-sports.io/hockey/teams/678.png"
+          }
+      },
+      "scores": {
+          "home": 3,
+          "away": 1
+      },
+      "periods": {
+          "first": "1-1",
+          "second": "1-0",
+          "third": "1-0",
+          "overtime": null,
+          "penalties": null
+      },
+      "events": true
+  }
+  ]}
