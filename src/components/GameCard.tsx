@@ -14,13 +14,13 @@ function GameCard( { game }: { game: Game } ) {
           <div className="col-span-1 pl-4">
             <img className="place-content-center" src={ game.teams.home.logo} width={iconSize} height={iconSize} />
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 text-center">
             <p className="inline-block align-middle">Home: </p> 
           </div>
-          <div className="col-span-3">
+          <div className="col-span-3 text-center">
             <p className="inline-block align-middle"> { game.teams.home.name } </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 text-center">
             <p className="inline-block align-middle"> { game.scores.home } </p>
           </div>
         </div>
@@ -28,13 +28,13 @@ function GameCard( { game }: { game: Game } ) {
           <div className="col-span-1 pl-4">
             <img className="place-content-center" src={ game.teams.away.logo} width={iconSize} height={iconSize} />
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 text-center">
             <p className="inline-block align-middle">Away: </p> 
           </div>
-          <div className="col-span-3">
+          <div className="col-span-3 text-center">
             <p className="inline-block align-middle"> { game.teams.away.name } </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 text-center">
             <p className="inline-block align-middle"> { game.scores.away } </p>
           </div>
         </div>
