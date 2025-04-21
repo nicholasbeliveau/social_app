@@ -7,6 +7,8 @@ import { env } from "process";
 import fsPromises from 'fs/promises';
 import { Game } from "@/types/types";
 
+const date = "20231011";
+
 var config = {
   method: 'get',
   url: 'https://v1.hockey.api-sports.io/games?league=57&season=2023',
@@ -35,7 +37,7 @@ export async function getScores() {
 export async function getLocalData() {
 
   //Get the path of json file
-  const filePath = path.join(process.cwd(), 'test_data/20231011.json');
+  const filePath = path.join(process.cwd(), 'test_data/games/' + date + '.json');
 
   // Read the JSON file
   const jsonData = await fsPromises.readFile( filePath );
