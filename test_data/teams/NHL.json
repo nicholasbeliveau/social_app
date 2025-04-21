@@ -1,0 +1,152 @@
+[
+  {
+      "name": "Ducks",
+      "city": "Anaheim",
+      "username": "AnaheimDucks"
+  },
+  {
+      "name": "Coyotes",
+      "city": "Arizona",
+      "username": "ArizonaCoyotes"
+  },
+  {
+      "name": "Flames",
+      "city": "Calgary",
+      "username": "NHLFlames"
+  },
+  {
+      "name": "Oilers",
+      "city": "Edmonton",
+      "username": "EdmontonOilers"
+  },
+  {
+      "name": "Kings",
+      "city": "Los Angeles",
+      "username": "LAKings"
+  },
+  {
+      "name": "Sharks",
+      "city": "San Jose",
+      "username": "SanJoseSharks"
+  },
+  {
+      "name": "Canucks",
+      "city": "Vancouver",
+      "username": "Canucks"
+  },
+  {
+      "name": "Blackhawks",
+      "city": "Chicago",
+      "username": "NHLBlackhawks"
+  },
+  {
+      "name": "Avalanche",
+      "city": "Colorado",
+      "username": ""
+  },
+  {
+      "name": "Stars",
+      "city": "Dallas",
+      "username": "DallasStars"
+  },
+  {
+      "name": "Wild",
+      "city": "Minnesota",
+      "username": "mnwild"
+  },
+  {
+      "name": "Predators",
+      "city": "Nashville",
+      "username": "PredsNHL"
+  },
+  {
+      "name": "Blues",
+      "city": "St. Louis",
+      "username": "StLouisBlues"
+  },
+  {
+      "name": "Jets",
+      "city": "Winnipeg",
+      "username": "NHLJets"
+  },
+  {
+      "name": "Bruins",
+      "city": "Boston",
+      "username": "NHLBruins"
+  },
+  {
+      "name": "Sabres",
+      "city": "Buffalo",
+      "username": "BuffaloSabres"
+  },
+  {
+      "name": "Red Wings",
+      "city": "Detroit",
+      "username": "DetroitRedWings"
+  },
+  {
+      "name": "Panthers",
+      "city": "Florida",
+      "username": "FlaPanthers"
+  },
+  {
+      "name": "Canadiens",
+      "city": "Montréal",
+      "username": "CanadiensMTL"
+  },
+  {
+      "name": "Senators",
+      "city": "Ottawa",
+      "username": "Senators"
+  },
+  {
+      "name": "Lightning",
+      "city": "Tampa Bay",
+      "username": "TBLightning"
+  },
+  {
+      "name": "Maple Leafs",
+      "city": "Toronto",
+      "username": "MapleLeafs"
+  },
+  {
+      "name": "Hurricanes",
+      "city": "Carolina",
+      "username": "Canes"
+  },
+  {
+      "name": "Blue Jackets",
+      "city": "Columbus",
+      "username": "BlueJacketsNHL"
+  },
+  {
+      "name": "Devils",
+      "city": "New Jersey",
+      "username": "NJDevils"
+  },
+  {
+      "name": "Islanders",
+      "city": "New York",
+      "username": "NYIslanders"
+  },
+  {
+      "name": "Rangers",
+      "city": "New York",
+      "username": "NYRangers"
+  },
+  {
+      "name": "Flyers",
+      "city": "Philadelphia",
+      "username": "NHLFlyers"
+  },
+  {
+      "name": "Penguins",
+      "city": "Pittsburgh",
+      "username": "penguins"
+  },
+  {
+      "name": "Capitals",
+      "city": "Washington",
+      "username": "Capitals"
+  }
+]
