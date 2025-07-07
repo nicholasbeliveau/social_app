@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Chirper
 
-## Getting Started
+A basic social media site built to learn Next.js.
 
-First, run the development server:
+User management is handled through Clerk (https://clerk.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Uses Prisma (https://www.prisma.io/) as an ORM and Neon (https://console.neon.tech) to host the database.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Home Page
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Basic Twitter clone layout with user profile on the left, feed in the middle and a section for who to follow or trending topics.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Does not currently handle image uploads, but that will be added.
 
-## Learn More
+![image](https://github.com/user-attachments/assets/874425e5-4b74-43d6-bab2-76e06f82288c)
 
-To learn more about Next.js, take a look at the following resources:
+Also has a dark mode option
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/e31970c5-5154-4b18-980d-ede5e0a9566b)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## NHL Page
 
-## Deploy on Vercel
+A front end for displaying sports scores.  It could work for any sport with a home and away team, logo, name and score.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://github.com/user-attachments/assets/803866af-2133-4012-9a6d-9183b13f819d)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Tasks Page
+
+A simple tasks page with a calendar.
+
+![image](https://github.com/user-attachments/assets/3f6c28cb-578a-4280-8ff9-eb245317cdac)
+
+## Notifications
+
+Lists all interactions from other users on your profile or posts.
+
+![image](https://github.com/user-attachments/assets/d0852265-4525-4e6e-a4c2-5a89e4d0b307)
+
+
