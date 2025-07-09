@@ -2,151 +2,193 @@
   {
       "name": "Ducks",
       "city": "Anaheim",
-      "username": "AnaheimDucks"
+      "username": "AnaheimDucks",
+      "image": ""
   },
   {
       "name": "Coyotes",
       "city": "Arizona",
-      "username": "ArizonaCoyotes"
+      "username": "ArizonaCoyotes",
+      "image": 
   },
   {
       "name": "Flames",
       "city": "Calgary",
-      "username": "NHLFlames"
+      "username": "NHLFlames",
+      "image": 
   },
   {
       "name": "Oilers",
       "city": "Edmonton",
-      "username": "EdmontonOilers"
+      "username": "EdmontonOilers",
+      "image": 
   },
   {
       "name": "Kings",
       "city": "Los Angeles",
-      "username": "LAKings"
+      "username": "LAKings",
+      "image": 
   },
   {
       "name": "Sharks",
       "city": "San Jose",
-      "username": "SanJoseSharks"
+      "username": "SanJoseSharks",
+      "image": 
   },
   {
       "name": "Canucks",
       "city": "Vancouver",
-      "username": "Canucks"
+      "username": "Canucks",
+      "image": 
   },
   {
       "name": "Blackhawks",
       "city": "Chicago",
-      "username": "NHLBlackhawks"
+      "username": "NHLBlackhawks",
+      "image": 
   },
   {
       "name": "Avalanche",
       "city": "Colorado",
-      "username": ""
+      "username": "",
+      "image": 
   },
   {
       "name": "Stars",
       "city": "Dallas",
-      "username": "DallasStars"
+      "username": "DallasStars",
+      "image": 
   },
   {
       "name": "Wild",
       "city": "Minnesota",
-      "username": "mnwild"
+      "username": "mnwild",
+      "image": 
   },
   {
       "name": "Predators",
       "city": "Nashville",
-      "username": "PredsNHL"
+      "username": "PredsNHL",
+      "image": 
   },
   {
       "name": "Blues",
       "city": "St. Louis",
-      "username": "StLouisBlues"
+      "username": "StLouisBlues",
+      "image": 
   },
   {
       "name": "Jets",
       "city": "Winnipeg",
-      "username": "NHLJets"
+      "username": "NHLJets",
+      "image": 
   },
   {
       "name": "Bruins",
       "city": "Boston",
-      "username": "NHLBruins"
+      "username": "NHLBruins",
+      "image": 
   },
   {
       "name": "Sabres",
       "city": "Buffalo",
-      "username": "BuffaloSabres"
+      "username": "BuffaloSabres",
+      "image": 
   },
   {
       "name": "Red Wings",
       "city": "Detroit",
-      "username": "DetroitRedWings"
+      "username": "DetroitRedWings",
+      "image": 
   },
   {
       "name": "Panthers",
       "city": "Florida",
-      "username": "FlaPanthers"
+      "username": "FlaPanthers",
+      "image": 
   },
   {
       "name": "Canadiens",
       "city": "Montréal",
-      "username": "CanadiensMTL"
+      "username": "CanadiensMTL",
+      "image": 
   },
   {
       "name": "Senators",
       "city": "Ottawa",
-      "username": "Senators"
+      "username": "Senators",
+      "image": 
   },
   {
       "name": "Lightning",
       "city": "Tampa Bay",
-      "username": "TBLightning"
+      "username": "TBLightning",
+      "image": 
   },
   {
       "name": "Maple Leafs",
       "city": "Toronto",
-      "username": "MapleLeafs"
+      "username": "MapleLeafs",
+      "image": 
   },
   {
       "name": "Hurricanes",
       "city": "Carolina",
-      "username": "Canes"
+      "username": "Canes",
+      "image": 
   },
   {
       "name": "Blue Jackets",
       "city": "Columbus",
-      "username": "BlueJacketsNHL"
+      "username": "BlueJacketsNHL",
+      "image": "columbus-blue-jackets-logo.png"
   },
   {
       "name": "Devils",
       "city": "New Jersey",
-      "username": "NJDevils"
+      "username": "NJDevils",
+      "image": 
   },
   {
       "name": "Islanders",
       "city": "New York",
-      "username": "NYIslanders"
+      "username": "NYIslanders",
+      "image": 
   },
   {
       "name": "Rangers",
       "city": "New York",
-      "username": "NYRangers"
+      "username": "NYRangers",
+      "image": 
   },
   {
       "name": "Flyers",
       "city": "Philadelphia",
-      "username": "NHLFlyers"
+      "username": "NHLFlyers",
+      "image": 
   },
   {
       "name": "Penguins",
       "city": "Pittsburgh",
-      "username": "penguins"
+      "username": "penguins",
+      "image": 
   },
   {
       "name": "Capitals",
       "city": "Washington",
-      "username": "Capitals"
+      "username": "Capitals",
+      "image": 
+  },
+  {
+      "name": "Vegas",
+      "city": "Golden Knights",
+      "username": "GoldenKnights",
+      "image": "vegas-golden-knights-logo.png"
+  },
+  {
+      "name": "Utah",
+      "city": "Hockey Club",
+      "username": "utahhockeyclub",
+      "image": 
   }
 ]
