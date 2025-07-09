@@ -25,3 +25,9 @@ export interface Game {
     away: number
   }
 }
+
+export interface Team {
+  city: string,
+  name: string,
+  username: string
+}
